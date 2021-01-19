@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 1</title>
+</head>
+
+<body>
+    示例
+    <div>
+        <div id="test"><span>test1</span>
+            <p class="red">段落标签</p>test2
+        </div>
+    </div>
+    <div id="test2">段落标签
+        <p class="red">段落标签</p>test3
+    </div>
+    <div id="empty">
+        <div id="e1"></div>
+        <div id="e2"></div>
+        <div id="e3"></div>
+    </div>
+    <div id="sibling">
+        <div id="s1"></div>
+        <div id="s2"></div>
+        <div id="s3"></div>
+    </div>
+    <div id="travel">
+        <div id="t1">t1</div>
+        <div id="t2">t2</div>
+        <div id="t3">t3</div>
+    </div>
+
+    <script src="/dom.1d0b6d56.js"></script>
+    <script src="/main.1f19ae8e.js"></script>
+
+    <!-- window.dom = {
+        find(select,scope){
+        return (scope || document).querySelectorAll(selector)
+        },
+        style(node,name,value){
+         node.style[color] = red 
+        },
+        each(){
+       
+        }
+       }
+       
+       //遍历多个red元素
+       const divList = dom.find("#test")[0]
+       console.log(dom.find('.red',test)[0])
+       //设置color为red
+       dom.style(test,{color:'red'}) -->
+</body>
+
+</html>
